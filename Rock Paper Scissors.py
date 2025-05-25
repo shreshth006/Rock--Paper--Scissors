@@ -84,9 +84,9 @@ def basegame(mode, target=None):
             elif result == 'computer':
                 compwins += 1
         if plwins > compwins:
-            print("\nWell played twin!! You were leading when you quit :)")
+            print("\nWell played!! You were leading when you quit :)")
         elif compwins > plwins:
-            print("\nSneaky of you to quit when the computer was winning hahahahahaha!!")
+            print("\nSneaky of you to quit when the computer was winning lol!!")
         else:
             print("\nYou and the computer were tied at the end. PERFECTION!!!")
 
@@ -106,7 +106,7 @@ def basegame(mode, target=None):
             elif result == 'computer':
                 compwins += 1  
         if plwins > compwins:
-            print("\nCongrats twin!!\n"
+            print("\nCongrats !!\n"
                 "You won the game!!")
         elif compwins > plwins:
             print("\nYou lost hahahahahahha\n"
@@ -132,7 +132,7 @@ def basegame(mode, target=None):
         if plwins > compwins:
             print("\nYou won the series dawg!!")
         elif compwins > plwins:
-            print("\nlmfaooo the computer won the series :(")
+            print("\nSadly, the computer won the series :(")
         else:
             print("\nThe series ended in a sweet tie!!")
 
